@@ -1,0 +1,8 @@
+1.What is the difference between readyState and status in XMLHttpRequest?
+readyState tells us the current progress of the request, while status tells us the HTTP response code from the server. For example, readyState = 4 means the request is complete, and status = 200 means the request was successful.
+
+2.How can you make the request asynchronous?
+You can make the request asynchronous by setting the third parameter of the open() method to true. This allows the browser to continue working while waiting for a response from the server.
+
+3.Why is asynchronous communication recommended for web applications?
+Asynchronous communication is recommended because it allows a website to continue working while waiting for a response from the server. It prevents the page from freezing and makes the website faster and easier for users to use.
